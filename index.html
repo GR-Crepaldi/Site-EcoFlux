@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <title>EcoFlux — Soluções Sustentáveis</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="EcoFlux: Gerenciador Inteligente de Pesagem e Fluxo de Pagamentos para o Setor de Reciclagem. Tecnologia sustentável para pátios de reciclagem.">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700;800&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+    <!-- Link para CSS externo -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Navegação principal do site -->
+    <nav id="top">
+        <!-- Logotipo-->
+        <div id="logo-text" onclick="location.href='#top'">
+            <img src="img/Logo Verde.png" alt="Logo EcoFlux" class="nav-logo-img">
+            <div class="logo-text-group">
+                <div class="logo-title"><span class="logo-eco">ECO</span><span class="logo-flux">FLUX</span></div>
+                <span class="logo-sub">Soluções Sustentáveis</span>
+            </div>
+        </div>
+
+        <!-- Botões de navegação para diferentes seções do site -->
+        <div class="nav-links">
+            <button onclick="location.href='#sobre-nos'">Sobre Nós</button>
+            <button onclick="location.href='#solucao'">Solução</button>
+            <button onclick="location.href='#funcionalidades'">Funcionalidades</button>
+            <button onclick="location.href='#impactos'">Impactos</button>
+        </div>
+
+        <div class="nav-cta">
+        </div>
+    </nav>
+
+    <!-- Banner principal com mensagem de boas-vindas -->
+    <div class="banner">
+        <!-- Overlay gradiente -->
+        <div class="banner-overlay"></div>
+
+        <!-- Imagem do banner (gradiente dinâmico via CSS) -->
+
+        <!-- Conteúdo do banner -->
+        <div class="banner-content">
+            <div class="banner-tag">🌿 Tecnologia para Reciclagem</div>
+            <h1>Bem-vindo à <span class="highlight">EcoFlux</span></h1>
+            <p class="banner-subtitle">Gerenciador Inteligente de Pesagem e Fluxo de Pagamentos para o Setor de Reciclagem</p>
+            <div class="banner-buttons">
+                <button class="btn-primary" onclick="location.href='#solucao'">Conheça a Solução</button>
+                <button class="btn-outline" onclick="location.href='#funcionalidades'">Ver Funcionalidades</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Conteúdo principal -->
+    <main class="conteudo">
+
+        <!-- Seção Sobre Nós -->
+        <section class="section" id="sobre-nos">
+            <div class="section-header">
+                <span class="section-tag">Quem Somos</span>
+                <h2>Sobre a <span class="highlight">EcoFlux</span></h2>
+            </div>
+            <div class="section-body two-col">
+                <div class="text-block">
+                    <p>A <strong>EcoFlux</strong> nasceu da necessidade de modernizar os processos operacionais de pátios de reciclagem. Nosso sistema substitui o modelo analógico, descentralizado e exaustivo por um fluxo digital ágil, confiável e inteligente.</p>
+                    <p>Desenvolvemos tecnologia que conecta a pesagem física de materiais ao acerto financeiro com fornecedores — catadores autônomos e grandes empresas — eliminando gargalos, erros de cálculo e a dependência de planilhas externas.</p>
+                    <p>Somos um produto da <strong>FATEC Guarulhos</strong>, criado por uma equipe de desenvolvedores comprometidos com a sustentabilidade e a eficiência operacional do setor de reciclagem brasileiro.</p>
+                </div>
+                <div class="about-visual">
+                    <div class="brand-showcase-card">
+                        <img src="img/Logo Principal.png" alt="EcoFlux — Soluções Sustentáveis" class="brand-showcase-img">
+                    </div>
+                </div>
+            </div>
+            <div class="stats-grid">
+                <div class="stat-card">
+                    <span class="stat-number">100%</span>
+                    <span class="stat-label">Digital e Local</span>
+                </div>
+                <div class="stat-card">
+                    <span class="stat-number">0</span>
+                    <span class="stat-label">Erros de Cálculo</span>
+                </div>
+                <div class="stat-card">
+                    <span class="stat-number">+</span>
+                    <span class="stat-label">Agilidade no Pátio</span>
+                </div>
+                <div class="stat-card">
+                    <span class="stat-number">✓</span>
+                    <span class="stat-label">LGPD Compatível</span>
+                </div>
+            </div>
+        </section>
+
+        <!-- Seção Solução -->
+        <section class="section section-alt" id="solucao">
+            <div class="section-header">
+                <span class="section-tag">Nossa Proposta</span>
+                <h2>O Problema que <span class="highlight">Resolvemos</span></h2>
+            </div>
+            <div class="section-body">
+                <p class="lead">O cenário operacional de pátios de reciclagem é historicamente marcado por processos analógicos que geram gargalos sérios. A EcoFlux transforma essa realidade.</p>
+                <div class="cards-grid">
+                    <div class="card">
+                        <div class="card-icon">⚖️</div>
+                        <h3>Pesagem Inteligente</h3>
+                        <p>Registro digital das métricas de peso por material, eliminando consultas manuais e erros aritméticos no lançamento de insumos.</p>
+                    </div>
+                    <div class="card">
+                        <div class="card-icon">💸</div>
+                        <h3>Fluxo de Pagamentos</h3>
+                        <p>Cálculo automático (Peso × Preço/kg) e geração de ordens de pagamento via Pix, com validação dupla pelo Caixa Operacional.</p>
+                    </div>
+                    <div class="card">
+                        <div class="card-icon">📊</div>
+                        <h3>Relatórios Analíticos</h3>
+                        <p>Exportação de relatórios diários padronizados para suporte à contabilidade e emissão fiscal — sem depender de planilhas externas.</p>
+                    </div>
+                    <div class="card">
+                        <div class="card-icon">🔒</div>
+                        <h3>Segurança de Dados</h3>
+                        <p>Conformidade com a LGPD para armazenamento seguro de CPF/CNPJ. Histórico de transações imutável para rastreabilidade contábil.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Seção Funcionalidades -->
+        <section class="section" id="funcionalidades">
+            <div class="section-header">
+                <span class="section-tag">O Sistema</span>
+                <h2>Funcionalidades <span class="highlight">Principais</span></h2>
+            </div>
+            <div class="section-body">
+                <div class="features-list">
+                    <div class="feature-item">
+                        <div class="feature-num">01</div>
+                        <div class="feature-text">
+                            <h3>Triagem e Registro de Materiais</h3>
+                            <p>O Operador de Pátio lança os dados de pesagem diretamente no sistema, associando cada entrada ao CPF ou CNPJ do fornecedor. A fórmula <em>Valor Total = Peso (kg) × Preço (R$/kg)</em> é aplicada automaticamente.</p>
+                        </div>
+                    </div>
+                    <div class="feature-item">
+                        <div class="feature-num">02</div>
+                        <div class="feature-text">
+                            <h3>Controle de Acesso por Perfil</h3>
+                            <p>Três perfis distintos: <strong>Operador de Pátio</strong> (triagem), <strong>Caixa Operacional</strong> (validação e autorização de pagamento) e <strong>Administrador</strong> (gestão geral e ajuste de valores). Blindagem total do caixa.</p>
+                        </div>
+                    </div>
+                    <div class="feature-item">
+                        <div class="feature-num">03</div>
+                        <div class="feature-text">
+                            <h3>Dupla Confirmação Financeira</h3>
+                            <p>Nenhum pagamento é liberado automaticamente. O lançamento do operador exige confirmação e autorização manual do Caixa Operacional, prevenindo riscos financeiros e operacionais.</p>
+                        </div>
+                    </div>
+                    <div class="feature-item">
+                        <div class="feature-num">04</div>
+                        <div class="feature-text">
+                            <h3>Banco de Dados Local (SQLite)</h3>
+                            <p>Funciona mesmo sem internet. O banco de dados relacional embutido garante a triagem física no pátio em cenários de instabilidade na rede, com histórico imutável e auditável.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Seção Impactos -->
+        <section class="section section-alt" id="impactos">
+            <div class="section-header">
+                <span class="section-tag">Resultados</span>
+                <h2>Nossos <span class="highlight">Impactos</span></h2>
+            </div>
+            <div class="section-body">
+                <p class="lead">A EcoFlux não é apenas um software — é um agente de transformação para o setor de reciclagem.</p>
+                <div class="impact-list">
+                    <div class="impact-item">
+                        <div class="impact-icon">♻️</div>
+                        <div>
+                            <h3>Economia Circular Eficiente</h3>
+                            <p>Agilizamos o fluxo de pagamento a catadores autônomos e fornecedores, incentivando a continuidade da cadeia de reciclagem e a economia circular.</p>
+                        </div>
+                    </div>
+                    <div class="impact-item">
+                        <div class="impact-icon">🚀</div>
+                        <div>
+                            <h3>Redução de Gargalos Operacionais</h3>
+                            <p>Eliminamos a lentidão crônica na liberação de frotas e no atendimento do pátio, substituindo calculadoras e planilhas por um fluxo linear, lógico e guiado.</p>
+                        </div>
+                    </div>
+                    <div class="impact-item">
+                        <div class="impact-icon">🛡️</div>
+                        <div>
+                            <h3>Integridade Financeira</h3>
+                            <p>Mitigamos quebras de caixa causadas por falhas aritméticas humanas, com cálculo automatizado e rastreabilidade contábil completa de todas as transações.</p>
+                        </div>
+                    </div>
+                    <div class="impact-item">
+                        <div class="impact-icon">🌱</div>
+                        <div>
+                            <h3>Sustentabilidade Digital</h3>
+                            <p>Ao digitalizar o pátio de reciclagem, contribuímos para um setor mais justo, transparente e ambientalmente responsável — conectando tecnologia e propósito sustentável.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Botão para voltar ao topo -->
+    <button id="topo-btn" title="Voltar ao Topo" onclick="location.href='#top'">
+        <div class="voltar-topo"></div>
+    </button>
+
+    <!-- Rodapé -->
+    <footer>
+        <div class="footer-container">
+            <!-- Informações sobre a empresa -->
+            <div class="coluna-footer">
+                <h3 class="footer-brand"><span class="logo-eco">ECO</span><span class="logo-flux-footer">FLUX</span></h3>
+                <p class="footer-tagline">Soluções Sustentáveis</p>
+                <p>Gerenciador Inteligente de Pesagem e Fluxo de Pagamentos para o Setor de Reciclagem.<br><br>Projeto desenvolvido na FATEC Guarulhos — 2026.</p>
+            </div>
+
+            <!-- Informações de contato -->
+            <div class="coluna-footer">
+                <h3>Contato</h3>
+                <p>
+                    <b>Endereço:</b> Guarulhos, SP<br><br>
+                    <b>Equipe:</b> Arthur Alves, Gabriel Alves, Gabriel Crepaldi, Victor Hugo<br><br>
+                    <b>E-mail:</b> <a href="mailto:ecoflux@email.com">ecoflux@email.com</a><br><br>
+                    <b>Orientador:</b> Prof. Jadir Custodio Mendonça Júnior
+                </p>
+            </div>
+
+            <!-- Redes sociais -->
+            <div class="coluna-footer">
+                <h3>Redes Sociais</h3>
+                <ul>
+                    <li><a href="https://facebook.com">Facebook</a></li>
+                    <li><a href="https://x.com">X (Twitter)</a></li>
+                    <li><a href="https://instagram.com">Instagram</a></li>
+                    <li><a href="https://linkedin.com">LinkedIn</a></li>
+                </ul>
+            </div>
+
+            <!-- Links rápidos -->
+            <div class="coluna-footer">
+                <h3>Links Rápidos</h3>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#sobre-nos">Sobre Nós</a></li>
+                    <li><a href="#solucao">Nossa Solução</a></li>
+                    <li><a href="#funcionalidades">Funcionalidades</a></li>
+                    <li><a href="#impactos">Impactos</a></li>         
+                </ul>
+            </div>
+        </div>
+        <div class="direitos">
+            <p>© 2026 EcoFlux — Soluções Sustentáveis. Todos os direitos reservados. FATEC Guarulhos.</p>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
