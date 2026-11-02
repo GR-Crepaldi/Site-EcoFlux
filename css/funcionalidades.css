@@ -1,0 +1,67 @@
+/* ECOFLUX — funcionalidades.css */
+/* Estilos específicos da página Funcionalidades */
+
+.features-list {
+    display: flex;
+    flex-direction: column;
+    gap: 28px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.feature-item {
+    display: flex;
+    align-items: flex-start;
+    gap: 24px;
+    padding: 28px;
+    background: var(--color-white);
+    border: 1.5px solid rgba(15, 80, 50, 0.1);
+    border-radius: var(--radius-md);
+    box-shadow: var(--shadow-sm);
+    transition: all var(--transition);
+}
+.feature-item:hover {
+    transform: translateX(6px);
+    box-shadow: var(--shadow-md);
+    border-color: var(--color-teal);
+}
+
+.feature-num {
+    font-family: var(--font-main);
+    font-size: 2rem;
+    font-weight: 800;
+    color: rgba(45, 160, 150, 0.3);
+    min-width: 52px;
+    line-height: 1;
+    flex-shrink: 0;
+}
+
+.feature-text h3 {
+    font-family: var(--font-main);
+    font-size: 1.15rem;
+    font-weight: 700;
+    color: var(--color-dark);
+    margin-bottom: 8px;
+}
+
+.feature-text p {
+    font-family: var(--font-body);
+    font-size: 0.95rem;
+    line-height: 1.7;
+    color: var(--color-muted);
+}
+
+.feature-text p em {
+    color: var(--color-mid);
+    font-style: normal;
+    font-weight: 500;
+}
+.feature-text p strong {
+    color: var(--color-dark);
+    font-weight: 600;
+}
+
+@media (max-width: 480px) {
+    .feature-item { flex-direction: column; gap: 12px; }
+    .feature-num { font-size: 1.4rem; }
+}
